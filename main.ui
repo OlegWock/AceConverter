@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>391</width>
+    <height>232</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AceConverter</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Скачать фанфик[и]:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="author">
+         <property name="text">
+          <string>Автора</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="from_file">
+         <property name="text">
+          <string>По списку</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QPushButton" name="link">
+         <property name="text">
+          <string>По ссылке</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="collection">
+         <property name="text">
+          <string>Со сборника</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="status">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Выберите вариант загрузки. При старте может показаться, что программа зависла, но это не так, через время она заработает. Для помощи нажмите кнопку &amp;quot;Помощь. О программе&amp;quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QRadioButton" name="to_fb2">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="text">
+            <string>fb2</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="to_ePub">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="text">
+            <string>ePub</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QPushButton" name="login">
+         <property name="text">
+          <string>Авторизация</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="about">
+         <property name="text">
+          <string>Помощь. 
+О программе</string>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
